@@ -1233,19 +1233,19 @@ test("filter input type", async (context) => {
     bigintArray_has: "BigInt",
     bigintArray_not_has: "BigInt",
 
-    numeric: "BigInt",
-    numeric_not: "BigInt",
-    numeric_in: "[BigInt]",
-    numeric_not_in: "[BigInt]",
-    numeric_gt: "BigInt",
-    numeric_lt: "BigInt",
-    numeric_gte: "BigInt",
-    numeric_lte: "BigInt",
+    numeric: "Numeric",
+    numeric_not: "Numeric",
+    numeric_in: "[Numeric]",
+    numeric_not_in: "[Numeric]",
+    numeric_gt: "Numeric",
+    numeric_lt: "Numeric",
+    numeric_gte: "Numeric",
+    numeric_lte: "Numeric",
 
-    numericArray: "[BigInt]",
-    numericArray_not: "[BigInt]",
-    numericArray_has: "BigInt",
-    numericArray_not_has: "BigInt",
+    numericArray: "[Numeric]",
+    numericArray_not: "[Numeric]",
+    numericArray_has: "Numeric",
+    numericArray_not_has: "Numeric",
 
     enum: "simpleEnum",
     enum_not: "simpleEnum",
@@ -1646,7 +1646,7 @@ test("filter numeric", async (context) => {
 
   result = await query(`
     query {
-      persons(where: { numeric_gte: "2" }) {
+      persons(where: { numeric_gte: "2.1" }) {
         items {
           id
         }
@@ -1656,7 +1656,7 @@ test("filter numeric", async (context) => {
 
   expect(result.errors?.[0]?.message).toBeUndefined();
   expect(result.data).toMatchObject({
-    persons: { items: [{ id: "2" }, { id: "3" }] },
+    persons: { items: [{ id: "3" }] },
   });
 });
 
