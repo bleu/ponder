@@ -13,7 +13,7 @@
   "dependencies": {
     "@hono/trpc-server": "^0.3.2",
     "ponder": "workspace:*",
-    "@trpc/server": "^10.45.2",
+    "@trpc/server": "^10.45.3",
     "hono": "^4.5.0",
     "viem": "^2.21.3",
     "zod": "^3.23.8"
