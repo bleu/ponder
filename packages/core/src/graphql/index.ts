@@ -683,10 +683,10 @@ const GraphQLNumeric = new GraphQLScalarType({
   name: "Numeric",
   serialize: (value) => String(value),
   // @ts-ignore
-  parseValue: (value) => value.toString(),
+  parseValue: (value) => String(value),
   parseLiteral: (value) => {
     if (value.kind === "StringValue") {
-      return value.value.toString();
+      return String(value.value);
     } else {
       throw new Error(
         `Invalid value kind provided for field of type Numeric: ${value.kind}. Expected: StringValue`,
