@@ -21,8 +21,8 @@ importers:
         specifier: ^0.30.6
         version: 0.30.6
       hono:
-        specifier: 4.5.0
-        version: 4.5.0
+        specifier: 4.11.4
+        version: 4.11.4
       lint-staged:
         specifier: ^15.1.0
         version: 15.2.0
@@ -106,8 +106,8 @@ importers:
   examples/feature-accounts:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -131,8 +131,8 @@ importers:
   examples/feature-api-functions:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -156,8 +156,8 @@ importers:
   examples/feature-blocks:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -181,8 +181,8 @@ importers:
   examples/feature-call-traces:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -209,8 +209,8 @@ importers:
         specifier: ^0.10.2
         version: 0.10.3(typescript@5.3.3)(zod@3.23.8)
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -234,8 +234,8 @@ importers:
   examples/feature-filter:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -259,8 +259,8 @@ importers:
   examples/feature-multichain:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -284,8 +284,8 @@ importers:
   examples/feature-proxy:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -309,8 +309,8 @@ importers:
   examples/feature-read-contract:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -334,8 +334,8 @@ importers:
   examples/project-friendtech:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -359,8 +359,8 @@ importers:
   examples/project-uniswap-v3-flash:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -384,8 +384,8 @@ importers:
   examples/reference-erc1155:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -412,8 +412,8 @@ importers:
         specifier: 0.22.8
         version: 0.22.8
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -437,8 +437,8 @@ importers:
   examples/reference-erc4626:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -462,8 +462,8 @@ importers:
   examples/reference-erc721:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../packages/core
@@ -502,8 +502,8 @@ importers:
   examples/with-client/ponder:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../../packages/core
@@ -534,13 +534,13 @@ importers:
     dependencies:
       forge-std:
         specifier: github:foundry-rs/forge-std
-        version: https://codeload.github.com/foundry-rs/forge-std/tar.gz/799589bfa97698c2bdf0ba8df4d461b607e36c57
+        version: git+https://git@github.com:foundry-rs/forge-std.git#887e87251562513a7b5ab1ea517c039fe6ee0984
 
   examples/with-foundry/ponder:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../../packages/core
@@ -618,8 +618,8 @@ importers:
   examples/with-nextjs/ponder:
     dependencies:
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../../packages/core
@@ -667,8 +667,8 @@ importers:
         specifier: 0.41.0
         version: 0.41.0(@electric-sql/pglite@0.2.13)(@opentelemetry/api@1.7.0)(@types/pg@8.10.9)(bun-types@1.2.14)(gel@2.0.2)(kysely@0.26.3)(pg@8.11.3)
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       pg:
         specifier: ^8.11.3
         version: 8.11.3
@@ -707,13 +707,13 @@ importers:
     dependencies:
       '@hono/trpc-server':
         specifier: ^0.3.2
-        version: 0.3.2(@trpc/server@10.45.2)(hono@4.5.0)
+        version: 0.3.2(@trpc/server@10.45.2)(hono@4.11.4)
       '@trpc/server':
         specifier: ^10.45.2
         version: 10.45.2
       hono:
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.11.4
+        version: 4.11.4
       ponder:
         specifier: workspace:*
         version: link:../../../packages/core
@@ -778,7 +778,7 @@ importers:
         version: 2.4.0
       '@hono/node-server':
         specifier: 1.19.5
-        version: 1.19.5(hono@4.7.9)
+        version: 1.19.5(hono@4.11.4)
       '@ponder/utils':
         specifier: workspace:*
         version: link:../utils
@@ -5322,9 +5322,9 @@ packages:
     resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
     engines: {node: '>=14'}
 
-  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/799589bfa97698c2bdf0ba8df4d461b607e36c57:
-    resolution: {tarball: https://codeload.github.com/foundry-rs/forge-std/tar.gz/799589bfa97698c2bdf0ba8df4d461b607e36c57}
-    version: 1.12.0
+  forge-std@git+https://git@github.com:foundry-rs/forge-std.git#887e87251562513a7b5ab1ea517c039fe6ee0984:
+    resolution: {commit: 887e87251562513a7b5ab1ea517c039fe6ee0984, repo: git@github.com:foundry-rs/forge-std.git, type: git}
+    version: 1.14.0
 
   format@0.2.2:
     resolution: {integrity: sha512-wzsgA6WOq+09wrU1tsJ09udeR/YZRaeArL9e1wPbFg3GG2yDnC2ldKpxs4xunpFF9DgqCqOIra3bc1HWrJ37Ww==}
@@ -5519,9 +5519,9 @@ packages:
     resolution: {integrity: sha512-Ox1pJVrDCyGHMG9CFg1tmrRUMRPRsAWYc/PinY0XzJU4K7y7vjNoLKIQ7BR5UJMCxNN8EM1MNDmHWA/B3aZUuw==}
     engines: {node: '>=6'}
 
-  hono@4.5.0:
-    resolution: {integrity: sha512-ZbezypZfn4odyApjCCv+Fw5OgweBqRLA/EsMyc4FUknFvBJcBIKhHy4sqmD1rWpBc/3wUlaQ6tqOPjk36R1ckg==}
-    engines: {node: '>=16.0.0'}
+  hono@4.11.4:
+    resolution: {integrity: sha512-U7tt8JsyrxSRKspfhtLET79pU8K+tInj5QZXs1jSugO1Vq5dFj3kmZsRldo29mTBfcjDRVRXrEZ6LS63Cog9ZA==}
+    engines: {node: '>=16.9.0'}
 
   hono@4.7.9:
     resolution: {integrity: sha512-/EsCoR5h7N4yu01TDu9GMCCJa6ZLk5ZJIWFFGNawAXmd1Tp53+Wir4xm0D2X19bbykWUlzQG0+BvPAji6p9E8Q==}
@@ -9030,14 +9030,14 @@ snapshots:
     dependencies:
       hono: 4.7.9
 
-  '@hono/node-server@1.19.5(hono@4.7.9)':
+  '@hono/node-server@1.19.5(hono@4.11.4)':
     dependencies:
-      hono: 4.7.9
+      hono: 4.11.4
 
-  '@hono/trpc-server@0.3.2(@trpc/server@10.45.2)(hono@4.5.0)':
+  '@hono/trpc-server@0.3.2(@trpc/server@10.45.2)(hono@4.11.4)':
     dependencies:
       '@trpc/server': 10.45.2
-      hono: 4.5.0
+      hono: 4.11.4
 
   '@humanwhocodes/config-array@0.11.13':
     dependencies:
@@ -12267,7 +12267,7 @@ snapshots:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
-  forge-std@https://codeload.github.com/foundry-rs/forge-std/tar.gz/799589bfa97698c2bdf0ba8df4d461b607e36c57: {}
+  forge-std@git+https://git@github.com:foundry-rs/forge-std.git#887e87251562513a7b5ab1ea517c039fe6ee0984: {}
 
   format@0.2.2: {}
 
@@ -12550,7 +12550,7 @@ snapshots:
 
   hex-rgb@4.3.0: {}
 
-  hono@4.5.0: {}
+  hono@4.11.4: {}
 
   hono@4.7.9: {}
 
